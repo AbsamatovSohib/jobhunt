@@ -86,6 +86,9 @@ LOCAL_APPS = [
     "vacancy",
     "worker",
     "common",
+    "task2_10",
+    "task3_10",
+    "task4_10",
     # Your stuff: custom apps go here
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps

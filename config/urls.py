@@ -15,6 +15,8 @@ urlpatterns = [
     path("accounts/", include("allauth.urls")),
     path("vacancy/", include("vacancy.urls")),
     path("worker/", include("worker.urls")),
+    path("task2/", include("task2.urls")),
+    path("task3/", include("task3.urls")),
     # Your stuff: custom urls includes go here
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 if settings.DEBUG:

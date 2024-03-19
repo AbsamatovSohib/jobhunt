@@ -13,6 +13,8 @@ urlpatterns = [
     # User management
     path("users/", include("users.urls", namespace="users")),
     path("accounts/", include("allauth.urls")),
+    path("vacancy/", include("vacancy.urls")),
+    path("worker/", include("worker.urls")),
     # Your stuff: custom urls includes go here
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 if settings.DEBUG:
